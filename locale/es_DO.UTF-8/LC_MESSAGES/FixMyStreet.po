@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: matthew@mysociety.org\n"
-"POT-Creation-Date: 2017-03-16 14:03-0400\n"
+"POT-Creation-Date: 2017-03-16 14:22-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Robert Lo Bue <rob@applingua.com>, 2017\n"
 "Language-Team: Spanish (Dominican Republic) (https://www.transifex.com/mysociety/teams/12067/es_DO/)\n"
@@ -858,7 +858,7 @@ msgstr "Tratado por el departamento dentro de los 5 días hábiles"
 
 #: templates/web/base/report/_inspect.html:73
 msgid "Defect type"
-msgstr ""
+msgstr "Tipo de defecto"
 
 #: perllib/FixMyStreet/App/Controller/Admin.pm:975
 #: templates/web/base/admin/template_edit.html:50
@@ -875,8 +875,9 @@ msgid "Deleted"
 msgstr "Eliminado"
 
 #: templates/web/base/report/_main.html:110
+#: templates/web/base/report/update.html:59
 msgid "Describe why you are moderating this"
-msgstr ""
+msgstr "Describe el motivo de la moderación"
 
 #: templates/web/base/admin/responsepriorities/list.html:7
 #: templates/web/zurich/admin/index-dm.html:22
@@ -915,9 +916,9 @@ msgid "Diligency prize league table"
 msgstr "Ranking de premios a la constancia"
 
 #: templates/web/base/report/_main.html:114
-#, fuzzy
+#: templates/web/base/report/update.html:61
 msgid "Discard changes"
-msgstr "Guardar cambios"
+msgstr "Desechar cambios"
 
 #: templates/web/base/admin/open311-form-fields.html:95
 msgid "Do not send email alerts on fetched comments to problem creator"
@@ -1433,9 +1434,8 @@ msgid "Hidden"
 msgstr "Oculto"
 
 #: templates/web/base/report/_main.html:105
-#, fuzzy
 msgid "Hide entire report"
-msgstr "Vuelva a enviar la notificación"
+msgstr "Ocultar el reporte entero"
 
 #: templates/web/base/around/display_location.html:67
 msgid "Hide old"
@@ -1444,6 +1444,10 @@ msgstr "Ocultar antiguos"
 #: templates/web/base/around/display_location.html:62
 msgid "Hide pins"
 msgstr "Ocultar marcadores"
+
+#: templates/web/base/report/update.html:15
+msgid "Hide update completely?"
+msgstr "Ocultar actualización entero"
 
 #: templates/web/base/admin/category_edit.html:49
 msgid "History"
@@ -1843,19 +1847,23 @@ msgstr "Moderar los detalles del informe"
 msgid "Moderate this report"
 msgstr "Moderar este informe"
 
+#: templates/web/base/report/update.html:12
+msgid "Moderate this update"
+msgstr "Moderar este actualización"
+
 #: templates/web/base/report/_main.html:69
-#, fuzzy
+#: templates/web/base/report/update.html:49
 msgid "Moderated by %s at %s"
-msgstr "Notificado por %s en %s"
+msgstr "Moderado por %s a %s"
 
 #: templates/web/zurich/admin/stats.html:34
 msgid "Moderated by division within one working day"
 msgstr "Moderado por el organismo durante el siguiente día laborable"
 
 #: templates/web/base/report/_main.html:109
-#, fuzzy
+#: templates/web/base/report/update.html:57
 msgid "Moderation reason:"
-msgstr "Moderar este informe"
+msgstr "Motivo de moderación"
 
 #: templates/web/base/admin/stats.html:11
 msgid "Month"
@@ -3091,13 +3099,17 @@ msgstr "Plantillas de respuesta"
 msgid "Response Templates for %s"
 msgstr "Plantillas de respuesta por %s"
 
+#: templates/web/base/report/update.html:40
+msgid "Revert to original"
+msgstr "Volver al texto original"
+
 #: templates/web/base/report/_main.html:95
 msgid "Revert to original text"
-msgstr ""
+msgstr "Volver al texto original"
 
 #: templates/web/base/report/_main.html:50
 msgid "Revert to original title"
-msgstr ""
+msgstr "Volver al titulo original"
 
 #: templates/web/base/js/translation_strings.html:28
 #: templates/web/base/js/translation_strings.html:40
@@ -3148,6 +3160,7 @@ msgstr "marcado como un informe duplicado"
 #: templates/web/base/admin/template_edit.html:46
 #: templates/web/base/report/_inspect.html:169
 #: templates/web/base/report/_main.html:113
+#: templates/web/base/report/update.html:60
 #: templates/web/zurich/admin/body.html:62
 #: templates/web/zurich/admin/contact-form.html:20
 #: templates/web/zurich/admin/template_edit.html:29
@@ -3265,20 +3278,27 @@ msgstr "Entre los pre-seleccionados"
 msgid "Shortlisted by %s"
 msgstr "Pre-seleecionados por %s"
 
+#: templates/web/base/report/update.html:20
+msgid "Show Photo?"
+msgstr "Mostrar foto"
+
 #: templates/web/base/report/new/form_user_loggedin.html:54
 #: templates/web/base/report/new/form_user_loggedout_by_email.html:22
 #: templates/web/base/report/update/form_name.html:33
 msgid "Show my name publicly"
 msgstr "Mostrar mi nombre públicamente"
 
+#: templates/web/base/report/update.html:17
+msgid "Show name publicly?"
+msgstr "Mostrar el nombre públicamente"
+
 #: templates/web/base/around/display_location.html:69
 msgid "Show old"
 msgstr "Mostrar antiguos"
 
 #: templates/web/base/report/_main.html:79
-#, fuzzy
 msgid "Show photo"
-msgstr "Mostrar antiguos"
+msgstr "Mostrar foto"
 
 #: templates/web/base/around/display_location.html:60
 msgid "Show pins"
@@ -3286,7 +3306,7 @@ msgstr "Mostrar marcadores"
 
 #: templates/web/base/report/_main.html:60
 msgid "Show reporter&rsquo;s name"
-msgstr ""
+msgstr "Mostrar el nombre del reportero"
 
 #: templates/web/base/auth/general.html:117
 #: templates/web/base/auth/general.html:3

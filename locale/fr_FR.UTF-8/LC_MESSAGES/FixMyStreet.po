@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: matthew@mysociety.org\n"
-"POT-Creation-Date: 2017-03-16 14:03-0400\n"
+"POT-Creation-Date: 2017-03-16 14:22-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: fixmystreetfr <fixmystreet@fixmystreet.fr>, 2016\n"
 "Language-Team: French (France) (https://www.transifex.com/mysociety/teams/12067/fr_FR/)\n"
@@ -877,6 +877,7 @@ msgid "Deleted"
 msgstr "Effacé"
 
 #: templates/web/base/report/_main.html:110
+#: templates/web/base/report/update.html:59
 msgid "Describe why you are moderating this"
 msgstr ""
 
@@ -917,6 +918,7 @@ msgid "Diligency prize league table"
 msgstr "Tableau d'honneur de la réactivité"
 
 #: templates/web/base/report/_main.html:114
+#: templates/web/base/report/update.html:61
 #, fuzzy
 msgid "Discard changes"
 msgstr "Enregistrer les modifications"
@@ -1446,6 +1448,10 @@ msgstr "Cacher les anciens"
 msgid "Hide pins"
 msgstr "Cacher les épingles"
 
+#: templates/web/base/report/update.html:15
+msgid "Hide update completely?"
+msgstr ""
+
 #: templates/web/base/admin/category_edit.html:49
 msgid "History"
 msgstr "Historique"
@@ -1839,7 +1845,13 @@ msgstr "Modérer les détails du rapport"
 msgid "Moderate this report"
 msgstr "Modérer ce rapport"
 
+#: templates/web/base/report/update.html:12
+#, fuzzy
+msgid "Moderate this update"
+msgstr "Modérer ce rapport"
+
 #: templates/web/base/report/_main.html:69
+#: templates/web/base/report/update.html:49
 #, fuzzy
 msgid "Moderated by %s at %s"
 msgstr "Signalé par %s à %s"
@@ -1849,6 +1861,7 @@ msgid "Moderated by division within one working day"
 msgstr "Modéré par division dans le délai d'un jour ouvrable"
 
 #: templates/web/base/report/_main.html:109
+#: templates/web/base/report/update.html:57
 #, fuzzy
 msgid "Moderation reason:"
 msgstr "Modérer ce rapport"
@@ -3092,6 +3105,10 @@ msgstr "Modèles de réponse"
 msgid "Response Templates for %s"
 msgstr "Modèles de réponse pour %s"
 
+#: templates/web/base/report/update.html:40
+msgid "Revert to original"
+msgstr ""
+
 #: templates/web/base/report/_main.html:95
 msgid "Revert to original text"
 msgstr ""
@@ -3149,6 +3166,7 @@ msgstr "rapport marqué comme dupliqué"
 #: templates/web/base/admin/template_edit.html:46
 #: templates/web/base/report/_inspect.html:169
 #: templates/web/base/report/_main.html:113
+#: templates/web/base/report/update.html:60
 #: templates/web/zurich/admin/body.html:62
 #: templates/web/zurich/admin/contact-form.html:20
 #: templates/web/zurich/admin/template_edit.html:29
@@ -3266,10 +3284,20 @@ msgstr "Shortlisté"
 msgid "Shortlisted by %s"
 msgstr "Shortlisté par %s"
 
+#: templates/web/base/report/update.html:20
+#, fuzzy
+msgid "Show Photo?"
+msgstr "Montrer les anciens"
+
 #: templates/web/base/report/new/form_user_loggedin.html:54
 #: templates/web/base/report/new/form_user_loggedout_by_email.html:22
 #: templates/web/base/report/update/form_name.html:33
 msgid "Show my name publicly"
+msgstr "Afficher mon nom publiquement"
+
+#: templates/web/base/report/update.html:17
+#, fuzzy
+msgid "Show name publicly?"
 msgstr "Afficher mon nom publiquement"
 
 #: templates/web/base/around/display_location.html:69
