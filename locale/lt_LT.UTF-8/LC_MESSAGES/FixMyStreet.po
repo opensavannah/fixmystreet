@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: matthew@mysociety.org\n"
-"POT-Creation-Date: 2017-03-16 10:12-0400\n"
+"POT-Creation-Date: 2017-03-16 14:03-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Paulius Zaleckas <paulius.zaleckas@gmail.com>, 2017\n"
 "Language-Team: Lithuanian (Lithuania) (https://www.transifex.com/mysociety/teams/12067/lt_LT/)\n"
@@ -219,11 +219,11 @@ msgstr "<strong>Ne</strong> Leisti patvirtinti mano atnaujinimą el. paštu"
 msgid "<strong>No</strong> let me sign in by email"
 msgstr "<strong>Ne</strong> leisti man prisijungti el. paštu"
 
-#: templates/web/base/report/_inspect.html:155
+#: templates/web/base/report/_inspect.html:161
 msgid "<strong>Note:</strong> This report has been sent onwards for action. Any changes made won't be passed on."
 msgstr "<strong>Pastaba:</strong> Šis pranešimas jau išsiūstas vykdymui. Bet kokie pakeitimai nebus perduoti."
 
-#: templates/web/base/report/_inspect.html:157
+#: templates/web/base/report/_inspect.html:163
 msgid "<strong>Note:</strong> This report hasn't yet been sent onwards for action. Any changes made may not be passed on."
 msgstr "<strong>Pastaba:</strong> Šis pranešimas dar neišsiūstas vykdymui. Bet kokie pakeitimai nebūtinai bus perduoti."
 
@@ -444,7 +444,7 @@ msgid "Auto-response:"
 msgstr ""
 
 #: templates/web/base/admin/report_edit.html:127
-#: templates/web/base/report/_inspect.html:41
+#: templates/web/base/report/_inspect.html:47
 msgid "Available categories"
 msgstr ""
 
@@ -513,7 +513,7 @@ msgstr ""
 #: templates/web/base/admin/body.html:72
 #: templates/web/base/admin/contact-form.html:19
 #: templates/web/base/admin/stats_fix_rate.html:4
-#: templates/web/base/report/_inspect.html:32
+#: templates/web/base/report/_inspect.html:38
 #: templates/web/base/report/_item.html:90
 #: templates/web/base/report/new/category.html:6
 #: templates/web/base/report/new/category_wrapper.html:3
@@ -610,7 +610,7 @@ msgstr ""
 "Choose a <strong>category</strong> name that makes sense to the public (e.g., \"Pothole\", \"Street lighting\") but is helpful\n"
 "to the body too. These will appear in the drop-down menu on the report-a-problem page."
 
-#: templates/web/base/report/_inspect.html:88
+#: templates/web/base/report/_inspect.html:94
 msgid "Choose another"
 msgstr ""
 
@@ -847,7 +847,7 @@ msgstr "Įrankių juosta"
 msgid "Dealt with by subdivision within 5 working days"
 msgstr "Padalinys atliko per 5 darbo dienas"
 
-#: templates/web/base/report/_inspect.html:67
+#: templates/web/base/report/_inspect.html:73
 msgid "Defect type"
 msgstr ""
 
@@ -864,6 +864,10 @@ msgstr "Pašalinti šabloną"
 #: templates/web/zurich/admin/contact-form.html:12
 msgid "Deleted"
 msgstr "Ištrinta"
+
+#: templates/web/base/report/_main.html:110
+msgid "Describe why you are moderating this"
+msgstr ""
 
 #: templates/web/base/admin/responsepriorities/list.html:7
 #: templates/web/zurich/admin/index-dm.html:22
@@ -900,6 +904,10 @@ msgstr ""
 #: templates/web/base/admin/edit-league.html:8
 msgid "Diligency prize league table"
 msgstr "Diligency prize league table"
+
+#: templates/web/base/report/_main.html:114
+msgid "Discard changes"
+msgstr ""
 
 #: templates/web/base/admin/open311-form-fields.html:95
 msgid "Do not send email alerts on fetched comments to problem creator"
@@ -944,12 +952,12 @@ msgstr ""
 msgid "Duplicate"
 msgstr "Kopija"
 
-#: templates/web/base/report/_inspect.html:83
+#: templates/web/base/report/_inspect.html:89
 #, fuzzy
 msgid "Duplicate of"
 msgstr "Kopija"
 
-#: templates/web/base/report/_inspect.html:93
+#: templates/web/base/report/_inspect.html:99
 #, fuzzy
 msgid "Duplicates"
 msgstr "Kopija"
@@ -965,7 +973,7 @@ msgstr ""
 "Different categories <strong>can have the same contact</strong> (email address).\n"
 "This means you can add many categories even if you only have one contact for the body."
 
-#: templates/web/base/report/_inspect.html:15
+#: templates/web/base/report/_inspect.html:16
 #: templates/web/base/report/_item.html:81
 msgid "Easting/Northing:"
 msgstr ""
@@ -1161,7 +1169,7 @@ msgid "Examples:"
 msgstr "Pavyzdžiai:"
 
 #: templates/web/base/admin/report_edit.html:122
-#: templates/web/base/report/_inspect.html:36
+#: templates/web/base/report/_inspect.html:42
 msgid "Existing category"
 msgstr ""
 
@@ -1201,7 +1209,7 @@ msgstr ""
 msgid "Extra data:"
 msgstr "Papildoma informacija:"
 
-#: templates/web/base/report/_inspect.html:129
+#: templates/web/base/report/_inspect.html:135
 #: templates/web/base/report/_item.html:106
 msgid "Extra details"
 msgstr ""
@@ -1412,6 +1420,11 @@ msgstr "Labas %s"
 #: templates/web/zurich/admin/update_edit.html:18
 msgid "Hidden"
 msgstr "Paslėpta"
+
+#: templates/web/base/report/_main.html:105
+#, fuzzy
+msgid "Hide entire report"
+msgstr "Pridėti nepatvirtintus pranešimus"
 
 #: templates/web/base/around/display_location.html:67
 msgid "Hide old"
@@ -1689,6 +1702,7 @@ msgstr "Paskutinis atnaujinimas:"
 msgid "Last&nbsp;update:"
 msgstr "Last&nbsp;update:"
 
+#: templates/web/base/report/_inspect.html:20
 #: templates/web/base/report/_item.html:86
 msgid "Latitude/Longitude:"
 msgstr ""
@@ -1815,9 +1829,17 @@ msgstr ""
 msgid "Moderate this report"
 msgstr ""
 
+#: templates/web/base/report/_main.html:69
+msgid "Moderated by %s at %s"
+msgstr ""
+
 #: templates/web/zurich/admin/stats.html:34
 msgid "Moderated by division within one working day"
 msgstr "Moderated by division within one working day"
+
+#: templates/web/base/report/_main.html:109
+msgid "Moderation reason:"
+msgstr ""
 
 #: templates/web/base/admin/stats.html:11
 msgid "Month"
@@ -1859,7 +1881,7 @@ msgstr "Vardas:"
 msgid "Name: %s"
 msgstr "Vardas: %s"
 
-#: templates/web/base/report/_inspect.html:22
+#: templates/web/base/report/_inspect.html:28
 msgid "Navigate to this problem"
 msgstr ""
 
@@ -2607,7 +2629,7 @@ msgstr "Ankstesnis"
 msgid "Priorities"
 msgstr ""
 
-#: templates/web/base/report/_inspect.html:108
+#: templates/web/base/report/_inspect.html:114
 #: templates/web/base/report/_item.html:98
 msgid "Priority"
 msgstr ""
@@ -2736,7 +2758,7 @@ msgstr "Viešas atsakymas:"
 msgid "Public response:"
 msgstr "Viešas atsakymas:"
 
-#: templates/web/base/report/_inspect.html:147
+#: templates/web/base/report/_inspect.html:153
 msgid "Public update:"
 msgstr ""
 
@@ -3051,6 +3073,14 @@ msgstr "Atsakymo Šablonai"
 msgid "Response Templates for %s"
 msgstr "%s Atsakymo Šablonai"
 
+#: templates/web/base/report/_main.html:95
+msgid "Revert to original text"
+msgstr ""
+
+#: templates/web/base/report/_main.html:50
+msgid "Revert to original title"
+msgstr ""
+
 #: templates/web/base/js/translation_strings.html:28
 #: templates/web/base/js/translation_strings.html:40
 msgid "Right place?"
@@ -3090,21 +3120,22 @@ msgstr ""
 msgid "Satellite"
 msgstr ""
 
-#: templates/web/base/report/_inspect.html:163
+#: templates/web/base/report/_inspect.html:169
 msgid "Save + close as duplicate"
 msgstr ""
 
 #: templates/web/base/admin/contact-form.html:137
 #: templates/web/base/admin/responsepriorities/edit.html:46
 #: templates/web/base/admin/template_edit.html:46
-#: templates/web/base/report/_inspect.html:163
+#: templates/web/base/report/_inspect.html:169
+#: templates/web/base/report/_main.html:113
 #: templates/web/zurich/admin/body.html:62
 #: templates/web/zurich/admin/contact-form.html:20
 #: templates/web/zurich/admin/template_edit.html:29
 msgid "Save changes"
 msgstr ""
 
-#: templates/web/base/report/_inspect.html:143
+#: templates/web/base/report/_inspect.html:149
 msgid "Save with a public update"
 msgstr ""
 
@@ -3188,7 +3219,7 @@ msgstr ""
 msgid "Service:"
 msgstr ""
 
-#: templates/web/base/report/_inspect.html:25
+#: templates/web/base/report/_inspect.html:31
 msgid "Set to my current location"
 msgstr ""
 
@@ -3224,8 +3255,17 @@ msgstr ""
 msgid "Show old"
 msgstr ""
 
+#: templates/web/base/report/_main.html:79
+#, fuzzy
+msgid "Show photo"
+msgstr "Paskelbti nuotrauką"
+
 #: templates/web/base/around/display_location.html:60
 msgid "Show pins"
+msgstr ""
+
+#: templates/web/base/report/_main.html:60
+msgid "Show reporter&rsquo;s name"
 msgstr ""
 
 #: templates/web/base/auth/general.html:117
@@ -3333,7 +3373,7 @@ msgstr ""
 #: templates/web/base/admin/list_updates.html:11
 #: templates/web/base/admin/reports.html:16
 #: templates/web/base/admin/template_edit.html:40
-#: templates/web/base/report/_inspect.html:78
+#: templates/web/base/report/_inspect.html:84
 #: templates/web/base/report/_item.html:94
 #: templates/web/base/report/update/form_update.html:39
 msgid "State"
@@ -3884,7 +3924,7 @@ msgstr ""
 msgid "Total"
 msgstr ""
 
-#: templates/web/base/report/_inspect.html:119
+#: templates/web/base/report/_inspect.html:125
 #: templates/web/base/report/_item.html:102
 msgid "Traffic management required?"
 msgstr ""
@@ -4153,7 +4193,7 @@ msgstr ""
 msgid "When sent"
 msgstr ""
 
-#: templates/web/base/report/_inspect.html:84
+#: templates/web/base/report/_inspect.html:90
 msgid "Which report is it a duplicate of?"
 msgstr ""
 

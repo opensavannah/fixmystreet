@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: matthew@mysociety.org\n"
-"POT-Creation-Date: 2017-03-16 10:12-0400\n"
+"POT-Creation-Date: 2017-03-16 14:03-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Granit Zhubi <granitzhubi@gmail.com>, 2016\n"
 "Language-Team: Albanian (https://www.transifex.com/mysociety/teams/12067/sq/)\n"
@@ -229,11 +229,11 @@ msgstr "<strong>Jo</strong> Me lejoni te konfirmoj perditesimin me email"
 msgid "<strong>No</strong> let me sign in by email"
 msgstr "<strong>Jo</strong> më lejo të kyqem me email"
 
-#: templates/web/base/report/_inspect.html:155
+#: templates/web/base/report/_inspect.html:161
 msgid "<strong>Note:</strong> This report has been sent onwards for action. Any changes made won't be passed on."
 msgstr "<Strong> Shënim: </ strong> Ky raport është dërguar tutje për veprim. Çdo ndryshim i bërë tutje nuk do të kalojë."
 
-#: templates/web/base/report/_inspect.html:157
+#: templates/web/base/report/_inspect.html:163
 msgid "<strong>Note:</strong> This report hasn't yet been sent onwards for action. Any changes made may not be passed on."
 msgstr "<Strong> Shënim: </ strong> Ky raport nuk është dërguar ende në vazhdim për veprim. Çdo ndryshim i bërë nuk mund të kalohet."
 
@@ -453,7 +453,7 @@ msgid "Auto-response:"
 msgstr "Përgjigje-Automatike:"
 
 #: templates/web/base/admin/report_edit.html:127
-#: templates/web/base/report/_inspect.html:41
+#: templates/web/base/report/_inspect.html:47
 msgid "Available categories"
 msgstr "Kategoritë në dispozicion"
 
@@ -522,7 +522,7 @@ msgstr "Kategoritë:"
 #: templates/web/base/admin/body.html:72
 #: templates/web/base/admin/contact-form.html:19
 #: templates/web/base/admin/stats_fix_rate.html:4
-#: templates/web/base/report/_inspect.html:32
+#: templates/web/base/report/_inspect.html:38
 #: templates/web/base/report/_item.html:90
 #: templates/web/base/report/new/category.html:6
 #: templates/web/base/report/new/category_wrapper.html:3
@@ -620,7 +620,7 @@ msgstr ""
 "Zgjidhni një emër të<strong> kategorisë </ strong> emër që ka kuptim për publikun (p.sh., \"\", \"ndriçimi publik\",\"Rruga Lokale\"), por është i kuptueshëm edhe për\n"
 "Drejtorinë. Këto do të shfaqen në drop-down menynë në faqen Raportimit të problemeve."
 
-#: templates/web/base/report/_inspect.html:88
+#: templates/web/base/report/_inspect.html:94
 msgid "Choose another"
 msgstr ""
 
@@ -857,7 +857,7 @@ msgstr "Paneli"
 msgid "Dealt with by subdivision within 5 working days"
 msgstr "Trajtohet nga nën-drejtoritë brenda 5 ditëve të punës"
 
-#: templates/web/base/report/_inspect.html:67
+#: templates/web/base/report/_inspect.html:73
 msgid "Defect type"
 msgstr ""
 
@@ -874,6 +874,10 @@ msgstr "Fshije template"
 #: templates/web/zurich/admin/contact-form.html:12
 msgid "Deleted"
 msgstr "E fshirë"
+
+#: templates/web/base/report/_main.html:110
+msgid "Describe why you are moderating this"
+msgstr ""
 
 #: templates/web/base/admin/responsepriorities/list.html:7
 #: templates/web/zurich/admin/index-dm.html:22
@@ -910,6 +914,11 @@ msgstr "Nuk e përdori hartën"
 #: templates/web/base/admin/edit-league.html:8
 msgid "Diligency prize league table"
 msgstr ""
+
+#: templates/web/base/report/_main.html:114
+#, fuzzy
+msgid "Discard changes"
+msgstr "Ruaj ndryshimet"
 
 #: templates/web/base/admin/open311-form-fields.html:95
 msgid "Do not send email alerts on fetched comments to problem creator"
@@ -954,12 +963,12 @@ msgstr "Merr dhe lësho fotot këtu ose <u>kliko për të ngarkuar foto</u>"
 msgid "Duplicate"
 msgstr "Dyfisho"
 
-#: templates/web/base/report/_inspect.html:83
+#: templates/web/base/report/_inspect.html:89
 #, fuzzy
 msgid "Duplicate of"
 msgstr "Dyfisho"
 
-#: templates/web/base/report/_inspect.html:93
+#: templates/web/base/report/_inspect.html:99
 #, fuzzy
 msgid "Duplicates"
 msgstr "Dyfisho"
@@ -975,7 +984,7 @@ msgstr ""
 "kategoritë të ndryshme <strong> mund të kenë të njëjtin kontakt </ strong> (adresë e-mail).\n"
 "Kjo do të thotë që ju mund të shtoni shumë kategori edhe në qoftë se ju keni vetëm një kontakt për llojin e problemit"
 
-#: templates/web/base/report/_inspect.html:15
+#: templates/web/base/report/_inspect.html:16
 #: templates/web/base/report/_item.html:81
 msgid "Easting/Northing:"
 msgstr "Lëvizje drejtë Lindjes/Veriut:"
@@ -1164,7 +1173,7 @@ msgid "Examples:"
 msgstr "Shembuj:"
 
 #: templates/web/base/admin/report_edit.html:122
-#: templates/web/base/report/_inspect.html:36
+#: templates/web/base/report/_inspect.html:42
 msgid "Existing category"
 msgstr "Kategori ekzistuese"
 
@@ -1205,7 +1214,7 @@ msgstr "Ekipi i jashtëm"
 msgid "Extra data:"
 msgstr "Te dhena shtese:"
 
-#: templates/web/base/report/_inspect.html:129
+#: templates/web/base/report/_inspect.html:135
 #: templates/web/base/report/_item.html:106
 msgid "Extra details"
 msgstr "Ekstra detajet"
@@ -1416,6 +1425,11 @@ msgstr "Pershendetje %s"
 #: templates/web/zurich/admin/update_edit.html:18
 msgid "Hidden"
 msgstr "E fshehur"
+
+#: templates/web/base/report/_main.html:105
+#, fuzzy
+msgid "Hide entire report"
+msgstr "Ridergo raportin"
 
 #: templates/web/base/around/display_location.html:67
 msgid "Hide old"
@@ -1686,6 +1700,7 @@ msgstr "Perditesimi i fundit:"
 msgid "Last&nbsp;update:"
 msgstr "Perditesimi&nbsp;fundit:"
 
+#: templates/web/base/report/_inspect.html:20
 #: templates/web/base/report/_item.html:86
 msgid "Latitude/Longitude:"
 msgstr ""
@@ -1812,9 +1827,19 @@ msgstr "Raportet e detajuara mesatare"
 msgid "Moderate this report"
 msgstr "Moderoni këtë raport"
 
+#: templates/web/base/report/_main.html:69
+#, fuzzy
+msgid "Moderated by %s at %s"
+msgstr "Raportuar nga %s ne %s"
+
 #: templates/web/zurich/admin/stats.html:34
 msgid "Moderated by division within one working day"
 msgstr "Moderuar me divizion brenda një ditë pune"
+
+#: templates/web/base/report/_main.html:109
+#, fuzzy
+msgid "Moderation reason:"
+msgstr "Moderoni këtë raport"
 
 #: templates/web/base/admin/stats.html:11
 msgid "Month"
@@ -1856,7 +1881,7 @@ msgstr "Emri:"
 msgid "Name: %s"
 msgstr "Emri: %s"
 
-#: templates/web/base/report/_inspect.html:22
+#: templates/web/base/report/_inspect.html:28
 msgid "Navigate to this problem"
 msgstr "Shko tek ky problem"
 
@@ -2596,7 +2621,7 @@ msgstr "Paraprak"
 msgid "Priorities"
 msgstr "Prioritetet"
 
-#: templates/web/base/report/_inspect.html:108
+#: templates/web/base/report/_inspect.html:114
 #: templates/web/base/report/_item.html:98
 msgid "Priority"
 msgstr "Prioritet"
@@ -2725,7 +2750,7 @@ msgstr "Përditësim publik."
 msgid "Public response:"
 msgstr "Pergjigje publike:"
 
-#: templates/web/base/report/_inspect.html:147
+#: templates/web/base/report/_inspect.html:153
 msgid "Public update:"
 msgstr "Përditësim publik."
 
@@ -3042,6 +3067,14 @@ msgstr "Shabllonet e përgjigjeve"
 msgid "Response Templates for %s"
 msgstr "Shabllone të përgjigjjeve për"
 
+#: templates/web/base/report/_main.html:95
+msgid "Revert to original text"
+msgstr ""
+
+#: templates/web/base/report/_main.html:50
+msgid "Revert to original title"
+msgstr ""
+
 #: templates/web/base/js/translation_strings.html:28
 #: templates/web/base/js/translation_strings.html:40
 msgid "Right place?"
@@ -3081,7 +3114,7 @@ msgstr "Rrotullimi i kësaj foto do të heq dorë nga ndryshimet e paruajtura n�
 msgid "Satellite"
 msgstr "Satelitore"
 
-#: templates/web/base/report/_inspect.html:163
+#: templates/web/base/report/_inspect.html:169
 #, fuzzy
 msgid "Save + close as duplicate"
 msgstr "shenuar si raport i dyfishuar"
@@ -3089,14 +3122,15 @@ msgstr "shenuar si raport i dyfishuar"
 #: templates/web/base/admin/contact-form.html:137
 #: templates/web/base/admin/responsepriorities/edit.html:46
 #: templates/web/base/admin/template_edit.html:46
-#: templates/web/base/report/_inspect.html:163
+#: templates/web/base/report/_inspect.html:169
+#: templates/web/base/report/_main.html:113
 #: templates/web/zurich/admin/body.html:62
 #: templates/web/zurich/admin/contact-form.html:20
 #: templates/web/zurich/admin/template_edit.html:29
 msgid "Save changes"
 msgstr "Ruaj ndryshimet"
 
-#: templates/web/base/report/_inspect.html:143
+#: templates/web/base/report/_inspect.html:149
 msgid "Save with a public update"
 msgstr "Ruaje me një përditësim për publikun"
 
@@ -3181,7 +3215,7 @@ msgstr "Dërgo:"
 msgid "Service:"
 msgstr "Shërbim:"
 
-#: templates/web/base/report/_inspect.html:25
+#: templates/web/base/report/_inspect.html:31
 msgid "Set to my current location"
 msgstr "Vendos tek lokacioni im i tanishëm"
 
@@ -3217,9 +3251,18 @@ msgstr "Publiko emrin tim"
 msgid "Show old"
 msgstr "Shfaq te vjetrat"
 
+#: templates/web/base/report/_main.html:79
+#, fuzzy
+msgid "Show photo"
+msgstr "Shfaq te vjetrat"
+
 #: templates/web/base/around/display_location.html:60
 msgid "Show pins"
 msgstr "Shfaq shenjat"
+
+#: templates/web/base/report/_main.html:60
+msgid "Show reporter&rsquo;s name"
+msgstr ""
 
 #: templates/web/base/auth/general.html:117
 #: templates/web/base/auth/general.html:3
@@ -3326,7 +3369,7 @@ msgstr "Data e Fillimit:"
 #: templates/web/base/admin/list_updates.html:11
 #: templates/web/base/admin/reports.html:16
 #: templates/web/base/admin/template_edit.html:40
-#: templates/web/base/report/_inspect.html:78
+#: templates/web/base/report/_inspect.html:84
 #: templates/web/base/report/_item.html:94
 #: templates/web/base/report/update/form_update.html:39
 msgid "State"
@@ -3893,7 +3936,7 @@ msgstr "Për të parë një hartë të vendndodhjen e saktë të kësaj çështj
 msgid "Total"
 msgstr "Total"
 
-#: templates/web/base/report/_inspect.html:119
+#: templates/web/base/report/_inspect.html:125
 #: templates/web/base/report/_item.html:102
 msgid "Traffic management required?"
 msgstr "Menaxhimi i trafikut i nevojshëm?"
@@ -4162,7 +4205,7 @@ msgstr "Kur redaktohet"
 msgid "When sent"
 msgstr "Kur është dërguar"
 
-#: templates/web/base/report/_inspect.html:84
+#: templates/web/base/report/_inspect.html:90
 msgid "Which report is it a duplicate of?"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: matthew@mysociety.org\n"
-"POT-Creation-Date: 2017-03-16 10:12-0400\n"
+"POT-Creation-Date: 2017-03-16 14:03-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: mySociety <transifex@mysociety.org>, 2016\n"
 "Language-Team: German (Switzerland) (https://www.transifex.com/mysociety/teams/12067/de_CH/)\n"
@@ -216,11 +216,11 @@ msgstr ""
 msgid "<strong>No</strong> let me sign in by email"
 msgstr "Neu Registrieren"
 
-#: templates/web/base/report/_inspect.html:155
+#: templates/web/base/report/_inspect.html:161
 msgid "<strong>Note:</strong> This report has been sent onwards for action. Any changes made won't be passed on."
 msgstr ""
 
-#: templates/web/base/report/_inspect.html:157
+#: templates/web/base/report/_inspect.html:163
 msgid "<strong>Note:</strong> This report hasn't yet been sent onwards for action. Any changes made may not be passed on."
 msgstr ""
 
@@ -438,7 +438,7 @@ msgid "Auto-response:"
 msgstr ""
 
 #: templates/web/base/admin/report_edit.html:127
-#: templates/web/base/report/_inspect.html:41
+#: templates/web/base/report/_inspect.html:47
 msgid "Available categories"
 msgstr ""
 
@@ -507,7 +507,7 @@ msgstr ""
 #: templates/web/base/admin/body.html:72
 #: templates/web/base/admin/contact-form.html:19
 #: templates/web/base/admin/stats_fix_rate.html:4
-#: templates/web/base/report/_inspect.html:32
+#: templates/web/base/report/_inspect.html:38
 #: templates/web/base/report/_item.html:90
 #: templates/web/base/report/new/category.html:6
 #: templates/web/base/report/new/category_wrapper.html:3
@@ -591,7 +591,7 @@ msgid ""
 "                  to the body too. These will appear in the drop-down menu on the report-a-problem page."
 msgstr ""
 
-#: templates/web/base/report/_inspect.html:88
+#: templates/web/base/report/_inspect.html:94
 msgid "Choose another"
 msgstr ""
 
@@ -828,7 +828,7 @@ msgstr ""
 msgid "Dealt with by subdivision within 5 working days"
 msgstr "Innerhalb von f&uuml;nf Arbeitstagen abgeschlossen"
 
-#: templates/web/base/report/_inspect.html:67
+#: templates/web/base/report/_inspect.html:73
 msgid "Defect type"
 msgstr ""
 
@@ -845,6 +845,10 @@ msgstr "Vorlage löschen"
 #: templates/web/zurich/admin/contact-form.html:12
 msgid "Deleted"
 msgstr "Gel&ouml;scht"
+
+#: templates/web/base/report/_main.html:110
+msgid "Describe why you are moderating this"
+msgstr ""
 
 #: templates/web/base/admin/responsepriorities/list.html:7
 #: templates/web/zurich/admin/index-dm.html:22
@@ -881,6 +885,11 @@ msgstr "hat Karte nicht verwendet"
 #: templates/web/base/admin/edit-league.html:8
 msgid "Diligency prize league table"
 msgstr "Weiss ich nicht"
+
+#: templates/web/base/report/_main.html:114
+#, fuzzy
+msgid "Discard changes"
+msgstr "Speichern"
 
 #: templates/web/base/admin/open311-form-fields.html:95
 msgid "Do not send email alerts on fetched comments to problem creator"
@@ -925,12 +934,12 @@ msgstr "Fotos hierhin ziehen oder <u>hochladen</u>"
 msgid "Duplicate"
 msgstr "Duplikat"
 
-#: templates/web/base/report/_inspect.html:83
+#: templates/web/base/report/_inspect.html:89
 #, fuzzy
 msgid "Duplicate of"
 msgstr "Duplikat"
 
-#: templates/web/base/report/_inspect.html:93
+#: templates/web/base/report/_inspect.html:99
 #, fuzzy
 msgid "Duplicates"
 msgstr "Duplikat"
@@ -943,7 +952,7 @@ msgid ""
 "    "
 msgstr ""
 
-#: templates/web/base/report/_inspect.html:15
+#: templates/web/base/report/_inspect.html:16
 #: templates/web/base/report/_item.html:81
 msgid "Easting/Northing:"
 msgstr ""
@@ -1132,7 +1141,7 @@ msgid "Examples:"
 msgstr "Beispiele:"
 
 #: templates/web/base/admin/report_edit.html:122
-#: templates/web/base/report/_inspect.html:36
+#: templates/web/base/report/_inspect.html:42
 msgid "Existing category"
 msgstr ""
 
@@ -1172,7 +1181,7 @@ msgstr ""
 msgid "Extra data:"
 msgstr ""
 
-#: templates/web/base/report/_inspect.html:129
+#: templates/web/base/report/_inspect.html:135
 #: templates/web/base/report/_item.html:106
 msgid "Extra details"
 msgstr ""
@@ -1383,6 +1392,11 @@ msgstr "Hallo %s"
 #: templates/web/zurich/admin/update_edit.html:18
 msgid "Hidden"
 msgstr "Unsichtbar"
+
+#: templates/web/base/report/_main.html:105
+#, fuzzy
+msgid "Hide entire report"
+msgstr "Erfasse eine Meldung"
 
 #: templates/web/base/around/display_location.html:67
 msgid "Hide old"
@@ -1648,6 +1662,7 @@ msgstr "Letzte Bearbeitung"
 msgid "Last&nbsp;update:"
 msgstr "Letzte Bearbeitung"
 
+#: templates/web/base/report/_inspect.html:20
 #: templates/web/base/report/_item.html:86
 msgid "Latitude/Longitude:"
 msgstr ""
@@ -1774,9 +1789,18 @@ msgstr ""
 msgid "Moderate this report"
 msgstr ""
 
+#: templates/web/base/report/_main.html:69
+#, fuzzy
+msgid "Moderated by %s at %s"
+msgstr "Gemeldet von %s um %s"
+
 #: templates/web/zurich/admin/stats.html:34
 msgid "Moderated by division within one working day"
 msgstr "Innerhalb eines Arbeitstages moderiert"
+
+#: templates/web/base/report/_main.html:109
+msgid "Moderation reason:"
+msgstr ""
 
 #: templates/web/base/admin/stats.html:11
 msgid "Month"
@@ -1818,7 +1842,7 @@ msgstr "Name:"
 msgid "Name: %s"
 msgstr "Name: %s"
 
-#: templates/web/base/report/_inspect.html:22
+#: templates/web/base/report/_inspect.html:28
 msgid "Navigate to this problem"
 msgstr ""
 
@@ -2558,7 +2582,7 @@ msgstr "Zur&uuml;ck"
 msgid "Priorities"
 msgstr ""
 
-#: templates/web/base/report/_inspect.html:108
+#: templates/web/base/report/_inspect.html:114
 #: templates/web/base/report/_item.html:98
 msgid "Priority"
 msgstr ""
@@ -2687,7 +2711,7 @@ msgstr "R&uuml;ckmeldung an User"
 msgid "Public response:"
 msgstr "R&uuml;ckmeldung an User"
 
-#: templates/web/base/report/_inspect.html:147
+#: templates/web/base/report/_inspect.html:153
 msgid "Public update:"
 msgstr ""
 
@@ -3004,6 +3028,14 @@ msgstr ""
 msgid "Response Templates for %s"
 msgstr "Vorlagen für %s"
 
+#: templates/web/base/report/_main.html:95
+msgid "Revert to original text"
+msgstr ""
+
+#: templates/web/base/report/_main.html:50
+msgid "Revert to original title"
+msgstr ""
+
 #: templates/web/base/js/translation_strings.html:28
 #: templates/web/base/js/translation_strings.html:40
 msgid "Right place?"
@@ -3043,21 +3075,22 @@ msgstr "Durch das Drehen des Fotos gehen nicht gespeicherte Änderungen verloren
 msgid "Satellite"
 msgstr ""
 
-#: templates/web/base/report/_inspect.html:163
+#: templates/web/base/report/_inspect.html:169
 msgid "Save + close as duplicate"
 msgstr ""
 
 #: templates/web/base/admin/contact-form.html:137
 #: templates/web/base/admin/responsepriorities/edit.html:46
 #: templates/web/base/admin/template_edit.html:46
-#: templates/web/base/report/_inspect.html:163
+#: templates/web/base/report/_inspect.html:169
+#: templates/web/base/report/_main.html:113
 #: templates/web/zurich/admin/body.html:62
 #: templates/web/zurich/admin/contact-form.html:20
 #: templates/web/zurich/admin/template_edit.html:29
 msgid "Save changes"
 msgstr "Speichern"
 
-#: templates/web/base/report/_inspect.html:143
+#: templates/web/base/report/_inspect.html:149
 msgid "Save with a public update"
 msgstr ""
 
@@ -3141,7 +3174,7 @@ msgstr "Gesendet:"
 msgid "Service:"
 msgstr "Gerät"
 
-#: templates/web/base/report/_inspect.html:25
+#: templates/web/base/report/_inspect.html:31
 msgid "Set to my current location"
 msgstr ""
 
@@ -3177,9 +3210,18 @@ msgstr ""
 msgid "Show old"
 msgstr ""
 
+#: templates/web/base/report/_main.html:79
+#, fuzzy
+msgid "Show photo"
+msgstr "Zeige Stecknadeln"
+
 #: templates/web/base/around/display_location.html:60
 msgid "Show pins"
 msgstr "Zeige Stecknadeln"
+
+#: templates/web/base/report/_main.html:60
+msgid "Show reporter&rsquo;s name"
+msgstr ""
 
 #: templates/web/base/auth/general.html:117
 #: templates/web/base/auth/general.html:3
@@ -3286,7 +3328,7 @@ msgstr ""
 #: templates/web/base/admin/list_updates.html:11
 #: templates/web/base/admin/reports.html:16
 #: templates/web/base/admin/template_edit.html:40
-#: templates/web/base/report/_inspect.html:78
+#: templates/web/base/report/_inspect.html:84
 #: templates/web/base/report/_item.html:94
 #: templates/web/base/report/update/form_update.html:39
 msgid "State"
@@ -3838,7 +3880,7 @@ msgstr ""
 msgid "Total"
 msgstr "Total"
 
-#: templates/web/base/report/_inspect.html:119
+#: templates/web/base/report/_inspect.html:125
 #: templates/web/base/report/_item.html:102
 msgid "Traffic management required?"
 msgstr ""
@@ -4106,7 +4148,7 @@ msgstr "Wann editiert"
 msgid "When sent"
 msgstr "Wann gesendet"
 
-#: templates/web/base/report/_inspect.html:84
+#: templates/web/base/report/_inspect.html:90
 msgid "Which report is it a duplicate of?"
 msgstr ""
 

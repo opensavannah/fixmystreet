@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: matthew@mysociety.org\n"
-"POT-Creation-Date: 2017-03-16 10:12-0400\n"
+"POT-Creation-Date: 2017-03-16 14:03-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Jon Kristensen <info@jonkri.com>, 2016\n"
 "Language-Team: Swedish (Sweden) (https://www.transifex.com/mysociety/teams/12067/sv_SE/)\n"
@@ -219,11 +219,11 @@ msgstr "<strong>Nej</strong> Låt mig bekräfta uppdateringen via epost"
 msgid "<strong>No</strong> let me sign in by email"
 msgstr "<strong>Nej</strong> Låt mig logga in med min epostadress"
 
-#: templates/web/base/report/_inspect.html:155
+#: templates/web/base/report/_inspect.html:161
 msgid "<strong>Note:</strong> This report has been sent onwards for action. Any changes made won't be passed on."
 msgstr "<strong>Notera:</strong> Den här rapporten har vidarebefordrats. Ändringar i rapporten kommer inte att vidarebefordras."
 
-#: templates/web/base/report/_inspect.html:157
+#: templates/web/base/report/_inspect.html:163
 msgid "<strong>Note:</strong> This report hasn't yet been sent onwards for action. Any changes made may not be passed on."
 msgstr "<strong>Notera:</strong> Den här rapporten har vidarebefordrats. Ändringar i rapporten kommer inte att vidarebefordras."
 
@@ -441,7 +441,7 @@ msgid "Auto-response:"
 msgstr "Autosvar:"
 
 #: templates/web/base/admin/report_edit.html:127
-#: templates/web/base/report/_inspect.html:41
+#: templates/web/base/report/_inspect.html:47
 msgid "Available categories"
 msgstr "Tillgängliga kategorier"
 
@@ -510,7 +510,7 @@ msgstr "Kategorier:"
 #: templates/web/base/admin/body.html:72
 #: templates/web/base/admin/contact-form.html:19
 #: templates/web/base/admin/stats_fix_rate.html:4
-#: templates/web/base/report/_inspect.html:32
+#: templates/web/base/report/_inspect.html:38
 #: templates/web/base/report/_item.html:90
 #: templates/web/base/report/new/category.html:6
 #: templates/web/base/report/new/category_wrapper.html:3
@@ -596,7 +596,7 @@ msgid ""
 "                  to the body too. These will appear in the drop-down menu on the report-a-problem page."
 msgstr "Välj ett <strong>kategorinamn</strong> som å ena sidan är förståeligt för allmänheten (som t. ex. \"Väggrop\" eller \"Gatubelysning\") men som också är hjälpsamt för förvaltningen. Dessa kommer att visas i en rullgardinsmeny på problemrapporteringssidan."
 
-#: templates/web/base/report/_inspect.html:88
+#: templates/web/base/report/_inspect.html:94
 msgid "Choose another"
 msgstr ""
 
@@ -833,7 +833,7 @@ msgstr "Skrivbord"
 msgid "Dealt with by subdivision within 5 working days"
 msgstr "Hanterat av underavdelning inom 5 arbetsdagar"
 
-#: templates/web/base/report/_inspect.html:67
+#: templates/web/base/report/_inspect.html:73
 msgid "Defect type"
 msgstr ""
 
@@ -850,6 +850,10 @@ msgstr "Ta bort mall"
 #: templates/web/zurich/admin/contact-form.html:12
 msgid "Deleted"
 msgstr "Borttagen"
+
+#: templates/web/base/report/_main.html:110
+msgid "Describe why you are moderating this"
+msgstr ""
 
 #: templates/web/base/admin/responsepriorities/list.html:7
 #: templates/web/zurich/admin/index-dm.html:22
@@ -886,6 +890,11 @@ msgstr "Använde inte kartan"
 #: templates/web/base/admin/edit-league.html:8
 msgid "Diligency prize league table"
 msgstr "Flitighetstopplistan"
+
+#: templates/web/base/report/_main.html:114
+#, fuzzy
+msgid "Discard changes"
+msgstr "Spara ändringar"
 
 #: templates/web/base/admin/open311-form-fields.html:95
 msgid "Do not send email alerts on fetched comments to problem creator"
@@ -930,12 +939,12 @@ msgstr "Släpp foton här eller  <u>klicka för att ladda upp</u>"
 msgid "Duplicate"
 msgstr "Finns redan"
 
-#: templates/web/base/report/_inspect.html:83
+#: templates/web/base/report/_inspect.html:89
 #, fuzzy
 msgid "Duplicate of"
 msgstr "Finns redan"
 
-#: templates/web/base/report/_inspect.html:93
+#: templates/web/base/report/_inspect.html:99
 #, fuzzy
 msgid "Duplicates"
 msgstr "Finns redan"
@@ -948,7 +957,7 @@ msgid ""
 "    "
 msgstr "Varje förvaltningskontakt har en kategori, och denna visas för allmänheten. Olika kategorier <strong>kan ha samma kontakt</strong> (e-postadress). Detta betyder att du kan lägga till flera kategorier även om du bara har en förvaltningskontakt."
 
-#: templates/web/base/report/_inspect.html:15
+#: templates/web/base/report/_inspect.html:16
 #: templates/web/base/report/_item.html:81
 msgid "Easting/Northing:"
 msgstr "Easting/Northing:"
@@ -1140,7 +1149,7 @@ msgid "Examples:"
 msgstr "Exempel:"
 
 #: templates/web/base/admin/report_edit.html:122
-#: templates/web/base/report/_inspect.html:36
+#: templates/web/base/report/_inspect.html:42
 msgid "Existing category"
 msgstr "Befintlig kategori"
 
@@ -1181,7 +1190,7 @@ msgstr "Externt arbetslag"
 msgid "Extra data:"
 msgstr "Extra data:"
 
-#: templates/web/base/report/_inspect.html:129
+#: templates/web/base/report/_inspect.html:135
 #: templates/web/base/report/_item.html:106
 msgid "Extra details"
 msgstr "Extra uppgifter"
@@ -1392,6 +1401,11 @@ msgstr "Hej %s"
 #: templates/web/zurich/admin/update_edit.html:18
 msgid "Hidden"
 msgstr "Gömd"
+
+#: templates/web/base/report/_main.html:105
+#, fuzzy
+msgid "Hide entire report"
+msgstr "Skicka om rapporten"
 
 #: templates/web/base/around/display_location.html:67
 msgid "Hide old"
@@ -1658,6 +1672,7 @@ msgstr "Senaste uppdatering:"
 msgid "Last&nbsp;update:"
 msgstr "Senaste&nbsp;uppdatering:"
 
+#: templates/web/base/report/_inspect.html:20
 #: templates/web/base/report/_item.html:86
 msgid "Latitude/Longitude:"
 msgstr ""
@@ -1784,9 +1799,19 @@ msgstr "Moderera rapportdetaljer"
 msgid "Moderate this report"
 msgstr "Moderera den här rapporten"
 
+#: templates/web/base/report/_main.html:69
+#, fuzzy
+msgid "Moderated by %s at %s"
+msgstr "Rapporterat av %s den %s"
+
 #: templates/web/zurich/admin/stats.html:34
 msgid "Moderated by division within one working day"
 msgstr "Granskat av underavdelningen inom en arbetsdag"
+
+#: templates/web/base/report/_main.html:109
+#, fuzzy
+msgid "Moderation reason:"
+msgstr "Moderera den här rapporten"
 
 #: templates/web/base/admin/stats.html:11
 msgid "Month"
@@ -1828,7 +1853,7 @@ msgstr "Namn:"
 msgid "Name: %s"
 msgstr "Namn: %s"
 
-#: templates/web/base/report/_inspect.html:22
+#: templates/web/base/report/_inspect.html:28
 msgid "Navigate to this problem"
 msgstr "Navigera till det här problemet"
 
@@ -2572,7 +2597,7 @@ msgstr "Föregående"
 msgid "Priorities"
 msgstr "Prioriteringar"
 
-#: templates/web/base/report/_inspect.html:108
+#: templates/web/base/report/_inspect.html:114
 #: templates/web/base/report/_item.html:98
 msgid "Priority"
 msgstr "Prioritet"
@@ -2701,7 +2726,7 @@ msgstr "Offentlig uppdatering:"
 msgid "Public response:"
 msgstr "Offentligt svar:"
 
-#: templates/web/base/report/_inspect.html:147
+#: templates/web/base/report/_inspect.html:153
 msgid "Public update:"
 msgstr "Offentlig uppdatering:"
 
@@ -3018,6 +3043,14 @@ msgstr "Svarsmallar"
 msgid "Response Templates for %s"
 msgstr "Svarsmallar för %s"
 
+#: templates/web/base/report/_main.html:95
+msgid "Revert to original text"
+msgstr ""
+
+#: templates/web/base/report/_main.html:50
+msgid "Revert to original title"
+msgstr ""
+
 #: templates/web/base/js/translation_strings.html:28
 #: templates/web/base/js/translation_strings.html:40
 msgid "Right place?"
@@ -3057,7 +3090,7 @@ msgstr "Rotation av detta foto kommer att radera osparade rapportändringar."
 msgid "Satellite"
 msgstr "Satellit"
 
-#: templates/web/base/report/_inspect.html:163
+#: templates/web/base/report/_inspect.html:169
 #, fuzzy
 msgid "Save + close as duplicate"
 msgstr "markerad som dubblett av rapport"
@@ -3065,14 +3098,15 @@ msgstr "markerad som dubblett av rapport"
 #: templates/web/base/admin/contact-form.html:137
 #: templates/web/base/admin/responsepriorities/edit.html:46
 #: templates/web/base/admin/template_edit.html:46
-#: templates/web/base/report/_inspect.html:163
+#: templates/web/base/report/_inspect.html:169
+#: templates/web/base/report/_main.html:113
 #: templates/web/zurich/admin/body.html:62
 #: templates/web/zurich/admin/contact-form.html:20
 #: templates/web/zurich/admin/template_edit.html:29
 msgid "Save changes"
 msgstr "Spara ändringar"
 
-#: templates/web/base/report/_inspect.html:143
+#: templates/web/base/report/_inspect.html:149
 msgid "Save with a public update"
 msgstr "Spara med en offentlig uppdatering"
 
@@ -3157,7 +3191,7 @@ msgstr "Skickades:"
 msgid "Service:"
 msgstr "Tjänst:"
 
-#: templates/web/base/report/_inspect.html:25
+#: templates/web/base/report/_inspect.html:31
 msgid "Set to my current location"
 msgstr "Sätt till min nuvarande position"
 
@@ -3193,9 +3227,18 @@ msgstr "Visa mitt namn publikt"
 msgid "Show old"
 msgstr "Visa äldre"
 
+#: templates/web/base/report/_main.html:79
+#, fuzzy
+msgid "Show photo"
+msgstr "Visa äldre"
+
 #: templates/web/base/around/display_location.html:60
 msgid "Show pins"
 msgstr "Visa kartnålar"
+
+#: templates/web/base/report/_main.html:60
+msgid "Show reporter&rsquo;s name"
+msgstr ""
 
 #: templates/web/base/auth/general.html:117
 #: templates/web/base/auth/general.html:3
@@ -3304,7 +3347,7 @@ msgstr "Startdatum:"
 #: templates/web/base/admin/list_updates.html:11
 #: templates/web/base/admin/reports.html:16
 #: templates/web/base/admin/template_edit.html:40
-#: templates/web/base/report/_inspect.html:78
+#: templates/web/base/report/_inspect.html:84
 #: templates/web/base/report/_item.html:94
 #: templates/web/base/report/update/form_update.html:39
 msgid "State"
@@ -3856,7 +3899,7 @@ msgstr "För att visa en karta med den exakta positionen för problemet"
 msgid "Total"
 msgstr "Totalt"
 
-#: templates/web/base/report/_inspect.html:119
+#: templates/web/base/report/_inspect.html:125
 #: templates/web/base/report/_item.html:102
 msgid "Traffic management required?"
 msgstr "Krävs trafikövervakning?"
@@ -4125,7 +4168,7 @@ msgstr "Vid förändringar"
 msgid "When sent"
 msgstr "Vid avsändning"
 
-#: templates/web/base/report/_inspect.html:84
+#: templates/web/base/report/_inspect.html:90
 msgid "Which report is it a duplicate of?"
 msgstr ""
 
