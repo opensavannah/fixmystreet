@@ -4420,7 +4420,7 @@ msgstr "Una vez enviada"
 
 #: templates/web/base/report/_inspect.html:90
 msgid "Which report is it a duplicate of?"
-msgstr ""
+msgstr "¿Ese reporte es un reporte duplicado de qué reporte?"
 
 #: templates/web/base/js/translation_strings.html:51
 msgid "Whoa there Testino! Three photos are enough."
