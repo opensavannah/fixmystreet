@@ -908,7 +908,7 @@ msgstr "Cliente imposible de contactar"
 #: templates/web/base/dashboard/index.html:5
 #: templates/web/base/dashboard/index.html:7
 msgid "Dashboard"
-msgstr "Cuadro de mando"
+msgstr "Tablero de control"
 
 #: templates/web/zurich/admin/stats.html:35
 msgid "Dealt with by subdivision within 5 working days"
