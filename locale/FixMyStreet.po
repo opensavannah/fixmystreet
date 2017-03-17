@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: matthew@mysociety.org\n"
-"POT-Creation-Date: 2017-03-16 14:22-0400\n"
+"POT-Creation-Date: 2017-03-17 10:40-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <team@fixmystreet.com>\n"
@@ -1308,6 +1308,10 @@ msgstr ""
 
 #: templates/web/base/admin/report_blocks.html:1 templates/web/base/admin/report_blocks.html:18 templates/web/base/report/inspect/state_groups_select.html:1 templates/web/base/report/inspect/state_groups_select.html:11
 msgid "Internal referral"
+msgstr ""
+
+#: templates/web/base/offline/appcache.html:3
+msgid "Internet glitch"
 msgstr ""
 
 #: perllib/FixMyStreet/App/Controller/Open311.pm:345
@@ -2718,6 +2722,12 @@ msgstr ""
 
 #: perllib/FixMyStreet/App/Model/PhotoSet.pm:146
 msgid "Sorry, we couldn't save your image(s), please try again."
+msgstr ""
+
+#: templates/web/base/offline/appcache.html:5
+msgid ""
+"Sorry, we don’t have a good enough connection to fetch that page, or the\n"
+"page wasn’t found or there was a server error. Please try again later."
 msgstr ""
 
 #: perllib/FixMyStreet/App/Controller/Root.pm:107
