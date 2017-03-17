@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: matthew@mysociety.org\n"
-"POT-Creation-Date: 2017-03-16 14:22-0400\n"
+"POT-Creation-Date: 2017-03-17 11:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: mySociety <transifex@mysociety.org>, 2016\n"
 "Language-Team: Czech (Czech Republic) (https://www.transifex.com/mysociety/teams/12067/cs_CZ/)\n"
@@ -184,6 +184,14 @@ msgstr ""
 msgid "10 inch pothole on Example St, near post box"
 msgstr ""
 
+#: templates/web/base/dashboard/index.html:153
+msgid "14-30 days old"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:152
+msgid "7-14 days old"
+msgstr ""
+
 #: templates/web/base/admin/body-form.html:48
 #: templates/web/base/admin/body-form.html:49
 msgid ""
@@ -195,8 +203,8 @@ msgstr ""
 "              To je pravděpodobně proč je   \"area covered\" prázdná (níže).<br>\n"
 "             Asi upravte <code>MAPIT_TYPES</code> ve vašem konfiguračním souboru."
 
-#. ('The first %s is a dropdown of all/fixed/etc, the second is a dropdown of categories')
 #. ("The first %s is a dropdown of all/fixed/etc, the second is a dropdown of categories")
+#. ('The first %s is a dropdown of all/fixed/etc, the second is a dropdown of categories')
 #: templates/web/base/reports/_list-filters.html:32
 msgid "<label for=\"statuses\">Show</label> %s <label for=\"filter_categories\">about</label> %s"
 msgstr ""
@@ -322,6 +330,12 @@ msgstr "Upozornění %d zrušeno (vytvořeno %s)"
 msgid "Alert me to future updates"
 msgstr "Upozorněte mě na budoucí aktualizace"
 
+#: templates/web/base/dashboard/index.html:139
+#: templates/web/base/dashboard/index.html:22
+#: templates/web/base/dashboard/index.html:31
+msgid "All"
+msgstr ""
+
 #: templates/web/base/reports/index.html:6
 #: templates/web/zurich/reports/index.html:13
 msgid "All Reports"
@@ -382,6 +396,7 @@ msgid "Are you sure you want to cancel this upload?"
 msgstr ""
 
 #: templates/web/base/admin/report_edit.html:84
+#: templates/web/base/js/translation_strings.html:63
 #: templates/web/base/report/display_tools.html:6
 msgid "Are you sure?"
 msgstr ""
@@ -446,6 +461,14 @@ msgstr ""
 #: templates/web/base/admin/report_edit.html:127
 #: templates/web/base/report/_inspect.html:47
 msgid "Available categories"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:110
+msgid "Average time to council marking fixed (days)"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:118
+msgid "Average time to first council state change (days)"
 msgstr ""
 
 #: templates/web/base/report/new/after_photo.html:6
@@ -613,6 +636,10 @@ msgstr ""
 msgid "Choose another"
 msgstr ""
 
+#: templates/web/base/js/translation_strings.html:62
+msgid "Clear offline data"
+msgstr ""
+
 #: templates/web/base/admin/exordefects/index.html:11
 #: templates/web/base/admin/exordefects/index.html:17
 #: templates/web/base/admin/stats.html:72
@@ -769,6 +796,36 @@ msgstr "Úřad"
 #: templates/web/zurich/admin/body.html:1
 msgid "Council contacts for %s"
 msgstr "Kontakty na úřad %s"
+
+#: templates/web/base/dashboard/index.html:79
+#: templates/web/base/dashboard/index.html:84
+#, fuzzy
+msgid "Council has marked as closed"
+msgstr "označeno za uzavřené"
+
+#: templates/web/base/dashboard/index.html:55
+#: templates/web/base/dashboard/index.html:58
+#, fuzzy
+msgid "Council has marked as fixed"
+msgstr "Označené jako vyřešené"
+
+#: templates/web/base/dashboard/index.html:79
+#: templates/web/base/dashboard/index.html:81
+#, fuzzy
+msgid "Council has marked as in progress"
+msgstr "označené jako probíhající"
+
+#: templates/web/base/dashboard/index.html:79
+#: templates/web/base/dashboard/index.html:83
+#, fuzzy
+msgid "Council has marked as investigating"
+msgstr "označené jako zkoumání"
+
+#: templates/web/base/dashboard/index.html:79
+#: templates/web/base/dashboard/index.html:82
+#, fuzzy
+msgid "Council has marked as planned"
+msgstr "označené za naplánované"
 
 #: templates/web/base/report/_council_sent_info.html:6
 msgid "Council ref:&nbsp;%s"
@@ -1167,6 +1224,10 @@ msgstr ""
 
 #: templates/web/base/report/new/form_report.html:52
 msgid "Explain what’s wrong"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:147
+msgid "Export as CSV"
 msgstr ""
 
 #: perllib/FixMyStreet/Cobrand/Zurich.pm:174
@@ -1624,6 +1685,10 @@ msgstr "Interní poznámky"
 msgid "Internal referral"
 msgstr "Interní postoupení"
 
+#: templates/web/base/offline/appcache.html:3
+msgid "Internet glitch"
+msgstr ""
+
 #: perllib/FixMyStreet/App/Controller/Open311.pm:345
 msgid "Invalid agency_responsible value %s"
 msgstr "Chybná agency_responsible hodnota %s"
@@ -1680,6 +1745,15 @@ msgstr ""
 msgid "Keep me signed in on this computer"
 msgstr "Ponechte mě přihlášeného na tomto počítači"
 
+#: templates/web/base/dashboard/index.html:51
+msgid "Last 4 weeks"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:50
+#, fuzzy
+msgid "Last 7 days"
+msgstr "Poslední úpravy:"
+
 #: templates/web/base/admin/body.html:74
 #: templates/web/zurich/admin/body.html:16
 msgid "Last editor"
@@ -1705,6 +1779,10 @@ msgstr ""
 #: templates/web/base/admin/body-form.html:127
 msgid "Leave this blank if all reports to this body should be sent using the same send method (e.g., \"%s\")."
 msgstr "Ponechte prázdné, pokud pro tento subjekt bude vždy použitá stejná metoda zasílání (např. \"%s\")."
+
+#: templates/web/base/dashboard/index.html:151
+msgid "Less than 7 days old"
+msgstr ""
 
 #: templates/web/base/admin/body.html:31
 msgid "List all reported problems"
@@ -1750,6 +1828,11 @@ msgstr ""
 
 #: templates/web/base/js/translation_strings.html:56
 msgid "Log in with email"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:146
+#: templates/web/base/dashboard/index.html:39
+msgid "Look up"
 msgstr ""
 
 #: templates/web/base/js/translation_strings.html:44
@@ -2166,6 +2249,14 @@ msgstr "A nyní pro odeslání aktualizace&hellip;"
 #: templates/web/base/js/translation_strings.html:43
 msgid "OK"
 msgstr "OK"
+
+#: templates/web/base/js/translation_strings.html:64
+msgid "Offline data cleared"
+msgstr ""
+
+#: templates/web/base/js/translation_strings.html:61
+msgid "Offline update data saved"
+msgstr ""
 
 #: templates/web/base/reports/index.html:26
 msgid "Old / unknown <br>problems"
@@ -2919,9 +3010,19 @@ msgstr "Nevhodný obsah"
 msgid "Report as"
 msgstr ""
 
+#: templates/web/base/dashboard/index.html:30
+#, fuzzy
+msgid "Report category:"
+msgstr "Vytvořit kategorii"
+
 #: perllib/FixMyStreet/App/Controller/Rss.pm:298
 msgid "Report on %s"
 msgstr "Hlášení na webu %s"
+
+#: templates/web/base/dashboard/index.html:138
+#, fuzzy
+msgid "Report state:"
+msgstr "Nevhodný obsah"
 
 #: templates/web/base/report/new/fill_in_details_form.html:1
 #: templates/web/base/report/new/login_success_form.html:1
@@ -3012,6 +3113,7 @@ msgstr "Hlášení problému"
 
 #: perllib/FixMyStreet/Cobrand/Default.pm:655
 #: perllib/FixMyStreet/Cobrand/Zurich.pm:383
+#: templates/web/base/dashboard/index.html:135
 #: templates/web/zurich/header.html:52
 msgid "Reports"
 msgstr "Hlášení"
@@ -3032,12 +3134,21 @@ msgstr ""
 msgid "Reports published"
 msgstr "Publikovaná hlášení"
 
+#: templates/web/base/js/translation_strings.html:65
+#, fuzzy
+msgid "Reports saved offline."
+msgstr "Nahlásit problém"
+
 #: templates/web/base/admin/index.html:50
 msgid "Reports waiting to be sent"
 msgstr ""
 
 #: templates/web/base/admin/contact-form.html:89
 msgid "Reports will automatically be sent without needing to be inspected if the user's <strong>reputation</strong> is at or above this value. Set to <strong>0</strong> if all reports must be inspected regardless."
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:15
+msgid "Reports, Statistics and Actions for"
 msgstr ""
 
 #: templates/web/base/admin/contact-form.html:94
@@ -3145,6 +3256,12 @@ msgstr "Uložit změny"
 
 #: templates/web/base/report/_inspect.html:149
 msgid "Save with a public update"
+msgstr ""
+
+#. ("This is followed by a progress count, e.g. 3/5")
+#. ('This is followed by a progress count, e.g. 3/5')
+#: templates/web/base/js/translation_strings.html:66
+msgid "Saving reports offline"
 msgstr ""
 
 #: templates/web/base/admin/index.html:24
@@ -3362,6 +3479,12 @@ msgstr "Omlouváme se,  nelze lokalizovat. Zkuste ještě jednou."
 
 #: perllib/FixMyStreet/App/Model/PhotoSet.pm:146
 msgid "Sorry, we couldn't save your image(s), please try again."
+msgstr ""
+
+#: templates/web/base/offline/appcache.html:5
+msgid ""
+"Sorry, we don’t have a good enough connection to fetch that page, or the\n"
+"page wasn’t found or there was a server error. Please try again later."
 msgstr ""
 
 #: perllib/FixMyStreet/App/Controller/Root.pm:107
@@ -3961,6 +4084,24 @@ msgstr "Pro  zobrazení mapy přesného umístění tohoto problému"
 msgid "Total"
 msgstr "Celkem"
 
+#: templates/web/base/dashboard/index.html:98
+msgid "Total marked"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:72
+#, fuzzy
+msgid "Total marked as fixed"
+msgstr "Označené jako vyřešené"
+
+#: templates/web/base/dashboard/index.html:126
+msgid "Total not marked"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:55
+#: templates/web/base/dashboard/index.html:57
+msgid "Total reports received"
+msgstr ""
+
 #: templates/web/base/report/_inspect.html:125
 #: templates/web/base/report/_item.html:102
 msgid "Traffic management required?"
@@ -4134,6 +4275,12 @@ msgstr "Uživatel vyjmut ze sledování"
 msgid "User flagged"
 msgstr "Uživatel sledován"
 
+#: templates/web/base/dashboard/index.html:55
+#: templates/web/base/dashboard/index.html:59
+#, fuzzy
+msgid "User has marked as fixed"
+msgstr "Označené jako vyřešené"
+
 #: templates/web/base/admin/users.html:5
 msgid "User search finds matches in users' names and email addresses."
 msgstr "Při vyhledávání byly nalezeny shody  v uživatelských jménech nebo e-mailových adresách."
@@ -4176,6 +4323,16 @@ msgstr "Zobrazení oblastí"
 msgid "Viewing a problem"
 msgstr "Zobrazení hlášení"
 
+#. ("Week to date")
+#. ('Week to date')
+#: templates/web/base/dashboard/index.html:49
+msgid "WTD"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:21
+msgid "Ward:"
+msgstr ""
+
 #: templates/web/base/reports/body.html:16
 msgid "Wards of this council"
 msgstr "Oddělení tohoto úřadu"
@@ -4210,6 +4367,10 @@ msgstr "Osobní údaje budeme používat pouze v souladu s našimi <a href=\"/pr
 
 #: templates/web/base/questionnaire/completed-open.html:2
 msgid "We&rsquo;re sorry to hear the problem’s not fixed. Why not try writing to your local representatives?"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:49
+msgid "Week To Date"
 msgstr ""
 
 #: templates/web/base/contact/submit.html:7
@@ -4268,6 +4429,12 @@ msgstr "Psaní zprávy pouze hůlkovým písmem je těžké číst, stejně jako
 msgid "Wrong location? Just click again on the map."
 msgstr "Chybná poloha? Stačí v mapě překliknout na jiné místo."
 
+#. ("year to date")
+#. ('year to date')
+#: templates/web/base/dashboard/index.html:52
+msgid "YTD"
+msgstr ""
+
 #: templates/web/base/admin/stats.html:10
 msgid "Year"
 msgstr "Rok"
@@ -4300,6 +4467,10 @@ msgstr "Ano mám heslo"
 #: templates/web/base/contact/index.html:45
 msgid "You are complaining that this problem report was unnecessarily moderated:"
 msgstr "Stěžujete si, že toto hlášení bylo bezdůvodně moderováno:"
+
+#: templates/web/base/js/translation_strings.html:67
+msgid "You are offline"
+msgstr ""
 
 #: templates/web/base/contact/unsuitable-text.html:2
 msgid "You are reporting the following problem report for being abusive, containing personal information, or similar:"
@@ -4444,6 +4615,11 @@ msgstr "Vámi poskytnuté informace budou použity pouze v souladu se <a href=\"
 msgid "Your name"
 msgstr "Vaše jméno a příjmení"
 
+#: templates/web/base/js/translation_strings.html:59
+#, fuzzy
+msgid "Your offline reports"
+msgstr "Vaše hlášení"
+
 #: templates/web/base/auth/general.html:85
 #: templates/web/base/report/new/form_user_loggedout_password.html:10
 #: templates/web/base/report/update/form_user_loggedout_password.html:9
@@ -4471,6 +4647,10 @@ msgstr "Vaše hlášení"
 #: templates/web/base/my/planned.html:0 templates/web/base/my/planned.html:18
 #: templates/web/base/my/planned.html:5
 msgid "Your shortlist"
+msgstr ""
+
+#: templates/web/base/js/translation_strings.html:60
+msgid "Your update has been saved offline for submission when back online."
 msgstr ""
 
 #: templates/web/base/my/my.html:51
@@ -4646,6 +4826,16 @@ msgstr "tento typ lokálního problému"
 #: perllib/Utils.pm:177
 msgid "today"
 msgstr "dnes"
+
+#: templates/web/base/js/translation_strings.html:68
+#, fuzzy
+msgid "update"
+msgstr "Aktualizovat"
+
+#: templates/web/base/js/translation_strings.html:69
+#, fuzzy
+msgid "updates"
+msgstr "Aktualizace"
 
 #: templates/web/base/admin/report_edit.html:52
 msgid "used map"

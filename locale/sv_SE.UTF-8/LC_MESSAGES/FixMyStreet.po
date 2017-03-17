@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: matthew@mysociety.org\n"
-"POT-Creation-Date: 2017-03-16 14:22-0400\n"
+"POT-Creation-Date: 2017-03-17 11:29-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Jon Kristensen <info@jonkri.com>, 2016\n"
 "Language-Team: Swedish (Sweden) (https://www.transifex.com/mysociety/teams/12067/sv_SE/)\n"
@@ -184,6 +184,14 @@ msgstr "--Välj en mall--"
 msgid "10 inch pothole on Example St, near post box"
 msgstr "Hål i gatan på Storgatan, nära brevlådan"
 
+#: templates/web/base/dashboard/index.html:153
+msgid "14-30 days old"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:152
+msgid "7-14 days old"
+msgstr ""
+
 #: templates/web/base/admin/body-form.html:48
 #: templates/web/base/admin/body-form.html:49
 msgid ""
@@ -195,8 +203,8 @@ msgstr ""
 "              Detta är förmodligen anledningen till att \"område som täcks (area covered)\" är tomt nedan.<br>\n"
 "              Vill du lägga till några <code>MAPIT_TYPES</code> i konfigruationsfilen?"
 
-#. ('The first %s is a dropdown of all/fixed/etc, the second is a dropdown of categories')
 #. ("The first %s is a dropdown of all/fixed/etc, the second is a dropdown of categories")
+#. ('The first %s is a dropdown of all/fixed/etc, the second is a dropdown of categories')
 #: templates/web/base/reports/_list-filters.html:32
 msgid "<label for=\"statuses\">Show</label> %s <label for=\"filter_categories\">about</label> %s"
 msgstr "<label for=\"statuses\">Visa</label> %s <label for=\"filter_categories\">om</label> %s"
@@ -319,6 +327,13 @@ msgstr "Bevakning %d avaktiverad (skapad %s)"
 msgid "Alert me to future updates"
 msgstr "Varsko mig om framtida uppdateringar"
 
+#: templates/web/base/dashboard/index.html:139
+#: templates/web/base/dashboard/index.html:22
+#: templates/web/base/dashboard/index.html:31
+#, fuzzy
+msgid "All"
+msgstr "samtliga"
+
 #: templates/web/base/reports/index.html:6
 #: templates/web/zurich/reports/index.html:13
 msgid "All Reports"
@@ -379,6 +394,7 @@ msgid "Are you sure you want to cancel this upload?"
 msgstr "Är du säker på att du vill avbryta den här uppladdningen?"
 
 #: templates/web/base/admin/report_edit.html:84
+#: templates/web/base/js/translation_strings.html:63
 #: templates/web/base/report/display_tools.html:6
 msgid "Are you sure?"
 msgstr "Är du säker?"
@@ -444,6 +460,14 @@ msgstr "Autosvar:"
 #: templates/web/base/report/_inspect.html:47
 msgid "Available categories"
 msgstr "Tillgängliga kategorier"
+
+#: templates/web/base/dashboard/index.html:110
+msgid "Average time to council marking fixed (days)"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:118
+msgid "Average time to first council state change (days)"
+msgstr ""
 
 #: templates/web/base/report/new/after_photo.html:6
 msgid "Avoid personal information and vehicle number plates"
@@ -598,6 +622,10 @@ msgstr "Välj ett <strong>kategorinamn</strong> som å ena sidan är förståeli
 
 #: templates/web/base/report/_inspect.html:94
 msgid "Choose another"
+msgstr ""
+
+#: templates/web/base/js/translation_strings.html:62
+msgid "Clear offline data"
 msgstr ""
 
 #: templates/web/base/admin/exordefects/index.html:11
@@ -756,6 +784,36 @@ msgstr "Kommun"
 #: templates/web/zurich/admin/body.html:1
 msgid "Council contacts for %s"
 msgstr "Kommunkontakter för %s"
+
+#: templates/web/base/dashboard/index.html:79
+#: templates/web/base/dashboard/index.html:84
+#, fuzzy
+msgid "Council has marked as closed"
+msgstr "markerad som stängd"
+
+#: templates/web/base/dashboard/index.html:55
+#: templates/web/base/dashboard/index.html:58
+#, fuzzy
+msgid "Council has marked as fixed"
+msgstr "markerad som löst"
+
+#: templates/web/base/dashboard/index.html:79
+#: templates/web/base/dashboard/index.html:81
+#, fuzzy
+msgid "Council has marked as in progress"
+msgstr "markerad som pågående"
+
+#: templates/web/base/dashboard/index.html:79
+#: templates/web/base/dashboard/index.html:83
+#, fuzzy
+msgid "Council has marked as investigating"
+msgstr "markerad som under utredning"
+
+#: templates/web/base/dashboard/index.html:79
+#: templates/web/base/dashboard/index.html:82
+#, fuzzy
+msgid "Council has marked as planned"
+msgstr "markerad som planerad"
 
 #: templates/web/base/report/_council_sent_info.html:6
 msgid "Council ref:&nbsp;%s"
@@ -1158,6 +1216,11 @@ msgstr "Befintlig kategori"
 #: templates/web/base/report/new/form_report.html:52
 msgid "Explain what’s wrong"
 msgstr "Förklara felet"
+
+#: templates/web/base/dashboard/index.html:147
+#, fuzzy
+msgid "Export as CSV"
+msgstr "Alla rapporter som CSV"
 
 #: perllib/FixMyStreet/Cobrand/Zurich.pm:174
 #: perllib/FixMyStreet/Cobrand/Zurich.pm:913
@@ -1609,6 +1672,10 @@ msgstr "Interna anteckningar"
 msgid "Internal referral"
 msgstr "Interna refereringar"
 
+#: templates/web/base/offline/appcache.html:3
+msgid "Internet glitch"
+msgstr ""
+
 #: perllib/FixMyStreet/App/Controller/Open311.pm:345
 msgid "Invalid agency_responsible value %s"
 msgstr "Inkorrekt värde för agency_responsible, \"%s\""
@@ -1665,6 +1732,15 @@ msgstr "Jurisdiktion okänd"
 msgid "Keep me signed in on this computer"
 msgstr "Behåll mig inloggad på den här datorn"
 
+#: templates/web/base/dashboard/index.html:51
+msgid "Last 4 weeks"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:50
+#, fuzzy
+msgid "Last 7 days"
+msgstr "Senaste uppdatering:"
+
 #: templates/web/base/admin/body.html:74
 #: templates/web/zurich/admin/body.html:16
 msgid "Last editor"
@@ -1690,6 +1766,10 @@ msgstr "Tidigast uppdaterad"
 #: templates/web/base/admin/body-form.html:127
 msgid "Leave this blank if all reports to this body should be sent using the same send method (e.g., \"%s\")."
 msgstr "Lämna den här blank om samtliga rapporter till den här förvaltningen skall skickas med samma utskicksmetod (exv. \"%s\")."
+
+#: templates/web/base/dashboard/index.html:151
+msgid "Less than 7 days old"
+msgstr ""
 
 #: templates/web/base/admin/body.html:31
 msgid "List all reported problems"
@@ -1735,6 +1815,11 @@ msgstr ""
 
 #: templates/web/base/js/translation_strings.html:56
 msgid "Log in with email"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:146
+#: templates/web/base/dashboard/index.html:39
+msgid "Look up"
 msgstr ""
 
 #: templates/web/base/js/translation_strings.html:44
@@ -2147,6 +2232,14 @@ msgstr "För att skicka din uppdatering&hellip;"
 #: templates/web/base/js/translation_strings.html:43
 msgid "OK"
 msgstr "OK"
+
+#: templates/web/base/js/translation_strings.html:64
+msgid "Offline data cleared"
+msgstr ""
+
+#: templates/web/base/js/translation_strings.html:61
+msgid "Offline update data saved"
+msgstr ""
 
 #: templates/web/base/reports/index.html:26
 msgid "Old / unknown <br>problems"
@@ -2900,9 +2993,19 @@ msgstr "Rapportera missbruk"
 msgid "Report as"
 msgstr "Rapportera som"
 
+#: templates/web/base/dashboard/index.html:30
+#, fuzzy
+msgid "Report category:"
+msgstr "Redigera rapportkategori"
+
 #: perllib/FixMyStreet/App/Controller/Rss.pm:298
 msgid "Report on %s"
 msgstr "Rappoort på %s"
+
+#: templates/web/base/dashboard/index.html:138
+#, fuzzy
+msgid "Report state:"
+msgstr "Rapportera som"
 
 #: templates/web/base/report/new/fill_in_details_form.html:1
 #: templates/web/base/report/new/login_success_form.html:1
@@ -2993,6 +3096,7 @@ msgstr "Rapportera ett problem"
 
 #: perllib/FixMyStreet/Cobrand/Default.pm:655
 #: perllib/FixMyStreet/Cobrand/Zurich.pm:383
+#: templates/web/base/dashboard/index.html:135
 #: templates/web/zurich/header.html:52
 msgid "Reports"
 msgstr "Rapporter"
@@ -3013,6 +3117,11 @@ msgstr "Rapporter som skapas av anförtrodda användare kommer att skickas till 
 msgid "Reports published"
 msgstr "Publicerade rapporter"
 
+#: templates/web/base/js/translation_strings.html:65
+#, fuzzy
+msgid "Reports saved offline."
+msgstr "Rapportera ett problem"
+
 #: templates/web/base/admin/index.html:50
 msgid "Reports waiting to be sent"
 msgstr "Rapporter som väntar på att skickas"
@@ -3020,6 +3129,10 @@ msgstr "Rapporter som väntar på att skickas"
 #: templates/web/base/admin/contact-form.html:89
 msgid "Reports will automatically be sent without needing to be inspected if the user's <strong>reputation</strong> is at or above this value. Set to <strong>0</strong> if all reports must be inspected regardless."
 msgstr "Rapporter kommer automatiskt att skickas utan att en inspektion krävs om användarens <strong>anseende</strong> är detta värde eller högre. Sätt till <strong>0</strong> om samtliga rapporter måste inspekteras, ovasett användares anseende."
+
+#: templates/web/base/dashboard/index.html:15
+msgid "Reports, Statistics and Actions for"
+msgstr ""
 
 #: templates/web/base/admin/contact-form.html:94
 msgid "Reputation threshold"
@@ -3127,6 +3240,12 @@ msgstr "Spara ändringar"
 #: templates/web/base/report/_inspect.html:149
 msgid "Save with a public update"
 msgstr "Spara med en offentlig uppdatering"
+
+#. ("This is followed by a progress count, e.g. 3/5")
+#. ('This is followed by a progress count, e.g. 3/5')
+#: templates/web/base/js/translation_strings.html:66
+msgid "Saving reports offline"
+msgstr ""
 
 #: templates/web/base/admin/index.html:24
 #: templates/web/base/admin/reports.html:1
@@ -3347,6 +3466,12 @@ msgstr "Tyvärr kan vi inte förstå den adressen. Försök gärna igen."
 #: perllib/FixMyStreet/App/Model/PhotoSet.pm:146
 msgid "Sorry, we couldn't save your image(s), please try again."
 msgstr "Tyvärr kan vi inte spara bilden eller bilderna. Försök gärna igen."
+
+#: templates/web/base/offline/appcache.html:5
+msgid ""
+"Sorry, we don’t have a good enough connection to fetch that page, or the\n"
+"page wasn’t found or there was a server error. Please try again later."
+msgstr ""
 
 #: perllib/FixMyStreet/App/Controller/Root.pm:107
 msgid "Sorry, you don't have permission to do that."
@@ -3927,6 +4052,24 @@ msgstr "För att visa en karta med den exakta positionen för problemet"
 msgid "Total"
 msgstr "Totalt"
 
+#: templates/web/base/dashboard/index.html:98
+msgid "Total marked"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:72
+#, fuzzy
+msgid "Total marked as fixed"
+msgstr "markerad som löst"
+
+#: templates/web/base/dashboard/index.html:126
+msgid "Total not marked"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:55
+#: templates/web/base/dashboard/index.html:57
+msgid "Total reports received"
+msgstr ""
+
 #: templates/web/base/report/_inspect.html:125
 #: templates/web/base/report/_item.html:102
 msgid "Traffic management required?"
@@ -4101,6 +4244,12 @@ msgstr "Användarflaggan borttagen"
 msgid "User flagged"
 msgstr "Användaren flaggad"
 
+#: templates/web/base/dashboard/index.html:55
+#: templates/web/base/dashboard/index.html:59
+#, fuzzy
+msgid "User has marked as fixed"
+msgstr "markerad som löst"
+
 #: templates/web/base/admin/users.html:5
 msgid "User search finds matches in users' names and email addresses."
 msgstr "Användarsökningen matchar mot användares namn och e-postadresser."
@@ -4143,6 +4292,16 @@ msgstr "Visa en position"
 msgid "Viewing a problem"
 msgstr "Visa ett problem"
 
+#. ("Week to date")
+#. ('Week to date')
+#: templates/web/base/dashboard/index.html:49
+msgid "WTD"
+msgstr ""
+
+#: templates/web/base/dashboard/index.html:21
+msgid "Ward:"
+msgstr ""
+
 #: templates/web/base/reports/body.html:16
 msgid "Wards of this council"
 msgstr "Delområden i denna kommun"
@@ -4178,6 +4337,10 @@ msgstr "Vi kommer endast att använda din information i enlighet med vår <a hre
 #: templates/web/base/questionnaire/completed-open.html:2
 msgid "We&rsquo;re sorry to hear the problem’s not fixed. Why not try writing to your local representatives?"
 msgstr "Tråkigt att problemet inte åtgärdats. Du kan prova att skriva direkt till din kommun för att uppmana dem att åtgärda problemet."
+
+#: templates/web/base/dashboard/index.html:49
+msgid "Week To Date"
+msgstr ""
 
 #: templates/web/base/contact/submit.html:7
 msgid "We’ll get back to you as soon as we can."
@@ -4235,6 +4398,12 @@ msgstr "Om du skriver ditt meddelande endast med versaler blir det svårare att 
 msgid "Wrong location? Just click again on the map."
 msgstr "Fel plats? Klicka i så fall på kartan igen."
 
+#. ("year to date")
+#. ('year to date')
+#: templates/web/base/dashboard/index.html:52
+msgid "YTD"
+msgstr ""
+
 #: templates/web/base/admin/stats.html:10
 msgid "Year"
 msgstr "År"
@@ -4267,6 +4436,10 @@ msgstr "Ja, jag har ett lösenord"
 #: templates/web/base/contact/index.html:45
 msgid "You are complaining that this problem report was unnecessarily moderated:"
 msgstr "Du anmäler att den här problemrapporten var modererad i onödan:"
+
+#: templates/web/base/js/translation_strings.html:67
+msgid "You are offline"
+msgstr ""
 
 #: templates/web/base/contact/unsuitable-text.html:2
 msgid "You are reporting the following problem report for being abusive, containing personal information, or similar:"
@@ -4406,6 +4579,11 @@ msgstr "Din information kommer endast att användas i enlighet med vår <a href=
 msgid "Your name"
 msgstr "Ditt namn och efternamn"
 
+#: templates/web/base/js/translation_strings.html:59
+#, fuzzy
+msgid "Your offline reports"
+msgstr "Dina rapporter"
+
 #: templates/web/base/auth/general.html:85
 #: templates/web/base/report/new/form_user_loggedout_password.html:10
 #: templates/web/base/report/update/form_user_loggedout_password.html:9
@@ -4434,6 +4612,10 @@ msgstr "Dina rapporter"
 #: templates/web/base/my/planned.html:5
 msgid "Your shortlist"
 msgstr "Din slutlista"
+
+#: templates/web/base/js/translation_strings.html:60
+msgid "Your update has been saved offline for submission when back online."
+msgstr ""
 
 #: templates/web/base/my/my.html:51
 msgid "Your updates"
@@ -4608,6 +4790,16 @@ msgstr "den här typen av problem"
 #: perllib/Utils.pm:177
 msgid "today"
 msgstr "idag"
+
+#: templates/web/base/js/translation_strings.html:68
+#, fuzzy
+msgid "update"
+msgstr "Uppdatering"
+
+#: templates/web/base/js/translation_strings.html:69
+#, fuzzy
+msgid "updates"
+msgstr "Uppdateringar"
 
 #: templates/web/base/admin/report_edit.html:52
 msgid "used map"
